@@ -24,3 +24,17 @@ employing them
 - `analyser/errors.py`: Error definitions for different kinds of issues found in portfolio data.
 - `analyser/interfaces.py`: Abstractions for different parts of the whole system.
 - `analyser/utils.py`: Small useful functions which are not directly related to portfolio analysis.
+
+## Running analyser
+
+1. Install Python dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Start the analyser
+
+```bash
+python main.py
+```
